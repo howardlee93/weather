@@ -5,7 +5,7 @@
 
     <title>Weather app</title>
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
-    <link href="img/sun.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="sun.png" rel="shortcut icon" type="image/x-icon" />
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
@@ -13,26 +13,18 @@
 
 </head>
 <body>
-    <header><h1>Time and weather in <display id ="display-city"></display></h1></header>
+    <header><h2>Weather in: <display id ="display-city"></display></h2></header>
     <h2 id = "date" style="text-align: center;"></h2>
     <main>
         <form id ="location">
-        <h3>Enter city here: 
-            <input id ="city" placeholder="city" type="text" value="">
-            <br>
-            <button id="get-weather" type="button" >Get weather and time</button>
+        <h3>
+            <input id ="city" placeholder="Enter city here:" type="text" value="">
+            <button id="get-weather" type="button" >Get weather!</button>
 
         </h3>
         </form>
         
-    </form>
-        <!--give option to toggle F/C-->
-
-
-        <!--give option to toggle date/time-->
-
     <div id="display" style="display:none">
-        <button id ="convert">Convert F/C</button>
     </div>
 
 

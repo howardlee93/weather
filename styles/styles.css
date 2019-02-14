@@ -6,7 +6,7 @@ body {
 	margin: 0 auto;
 }
 
-h1 {
+h2 {
     color: navy;
     margin-left: 20px;
 }
@@ -34,6 +34,10 @@ button{
 #display{	
 	text-align : "center",
 	font-size : "130%",
+	padding-right: 10px;
+	border: solid navy;
+	border-radius: 15px;
+
 
 }
 
@@ -41,16 +45,17 @@ button{
 input{
 	border-radius: 5px;
 	font-size: 20px;
-	text-align: center;
-	width: 99%;
+	text-align: left;
+	width: 50%;
 }
 
 #location{
 	border-radius: 5px;
+	text-align: center;
 
 
 }
-form:focus {
+input:focus {
 	border-color: #66afe9;
 	outline: 0;
 	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
@@ -64,5 +69,19 @@ img{
 
 
 footer{
-	text-align: center;
+    color: navy;
+    bottom: 0;
+	left: 0;
+	width: 100%;
+  position: absolute;
+  right: 0;
+  padding: 2rem 0rem;
+  text-align: center;
+  font-size: 12px;
 }
+
+footer a {
+  color: #ffffff;
+}
+
+
