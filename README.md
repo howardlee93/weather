@@ -1,1 +1,2 @@
-# weather app built with jQuery, OpenWeather API, HTML5 and CSS3 
+# weather app 
+built with jQuery, OpenWeather API, HTML5 and CSS3 
